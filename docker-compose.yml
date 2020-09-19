@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  pi-433-recv:
+    image: pi-433-recv:dev
+    build:
+      context: .
+      target: dev
+    ports:
+      - 8090:8090

@@ -1,0 +1,6 @@
+version: '3.4'
+
+services:
+  pi-433-recv:
+    volumes:
+      - ./:/usr/src/recv/app:rw

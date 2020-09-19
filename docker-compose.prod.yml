@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  pi-433-recv:
+    image: pi-433-recv:prod
+    build:
+      target: prod
+    devices:
+      - /dev/gpiomem
